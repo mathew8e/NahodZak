@@ -119,3 +119,13 @@ a:hover{
 li{
     padding: 10px;
 }
+.header{
+    display:flex;
+}
+.header img{
+    width: 5%;
+    height: auto;
+    padding-top: 4%;
+    padding-left: 4%;
+    position: absolute;
+}
