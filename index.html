@@ -7,17 +7,34 @@
         <meta name="keywords" content="Nahodny generator, skola, cz, skouseni, generator skouseni">
         <meta name="author" content="Mathew Bosak">
         <link rel="stylesheet" href="./css/master.css">
+        <script src="./script.js"></script>
     </head>
     <body>
-        <h1>Kalkulačka na náhodné žáky ve třídě</h1>
+        <h1>Kalkulačka na výběr náhodného žáka ve třídě</h1>
         <div class="kalkulacka">
+            <h2 class="info">Výstup</h2>
             <div class="output">
-                <p>Zatim nikdo...</p>
+                <p class="outp">Zatim nikdo...</p>
             </div>
             <h2 class="info">Sem zadejte žáky</h2>
-            <textarea class = "Zakinput" rows="4" cols="50" placeholder="Pište..."></textarea>
+            <textarea class = "Zakinput" rows="4" cols="50" placeholder="Oddělujte jména čárkama" spellcheck="false"></textarea>
             <br>
-            <button class="vypocitat"><span>Vypočítat </span></button>
+            <button class="vypocitat" onclick="vypoc()"><span>Vypočítat </span></button>
+        </div>
+        <div class="footer">
+            <div class="futflex">
+                <div class="halfdiv">
+                    <p>Náhodný výblěrový generátor udělal Mathew Bosak</p>
+                </div>
+                <div>
+                    <p>Sleduj mě</p>
+                        <ul>
+                            <li><a href="Instagram">Instagram</a></li>
+                            <li><a href="GitHub">GitHub</a></li>
+                            <li><a href="Twitter">Twitter</a></li>
+                        </ul>
+                </div>
+            </div>
         </div>
     </body>
 </html>

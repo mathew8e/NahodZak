@@ -3,26 +3,29 @@
 
 body{
     font-family: 'Roboto Mono', monospace;
+    padding: 0px;
+    margin: 0px;
+    overflow-x:hidden;
 }
 h1{
     font-family: 'Major Mono Display', monospace;
     margin: auto;
     padding: 0.5%;
-    width: 60%;
+    width: 50%;
     text-align: center;
-    color: white;
-    background-color: #333333;
-    border-radius: 3px;
+    color: #333333;
+    margin-top: 3%;
+    border-bottom: solid 2px #333333;
 }
 .kalkulacka{
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     text-align: center;
-    background: inherit;
     padding: 20px;
     border-radius: 3px;
+    background-color: white;
 }
 .output{
     margin-left: auto;
@@ -36,13 +39,13 @@ h1{
 }
 .Zakinput{
     border: #333333 solid 2px;
+    color: #333333;
     border-radius: 3px;
     background-color: white;
     padding-bottom: 2%;
     padding-right: 2%;
     padding-left: 2%;
     padding-top: 2%;
-    margin-top: 2%;
     font-size: large;
     margin-bottom: 2%;
 }
@@ -51,8 +54,8 @@ h1{
     border-bottom: black 3px;
 }
 .vypocitat{
-    background-color: #333333;
-    border: solid #333333 1px;
+    background-color: #54ecc4;
+    border: none;
     border-radius: 3px;
     color: white;
     font-size: large;
@@ -86,5 +89,33 @@ h1{
 .vypocitat:active {
     transform: translateY(4px);
 }
-  
-  
+.footer{
+    background-color: #333333;
+    margin-top: 15%;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    border-bottom: solid 2px white;
+}
+.futflex{
+    display: flex;
+    margin: auto;
+}
+.futflex div{
+    margin: 3%;
+}
+.halfdiv{
+    width: 50%;
+}
+li{
+    padding: 10px;
+}
