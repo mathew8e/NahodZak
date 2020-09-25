@@ -6,6 +6,7 @@ body{
     padding: 0px;
     margin: 0px;
     overflow-x:hidden;
+    font-size: 1.1vw;
 }
 h1{
     font-family: 'Major Mono Display', monospace;
@@ -16,6 +17,8 @@ h1{
     color: #333333;
     margin-top: 3%;
     border-bottom: solid 2px #333333;
+    font-size: 3vw;
+
 }
 .kalkulacka{
     margin-top: 6%;
@@ -48,7 +51,15 @@ h1{
     padding-top: 2%;
     font-size: large;
     margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto; 
 }
+textarea {	 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;	 
+    width: 100%;
+} 
 .info{
     color: #333333;
     border-bottom: black 3px;
